@@ -20,5 +20,4 @@ public class Gnome {
     int size;
     int hairColor;
     int eyeColor;
-
 }
