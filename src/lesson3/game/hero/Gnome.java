@@ -14,4 +14,10 @@ package lesson3.game.hero;
         Gnome power, Gnome charisma, Gnome magic
 */
 public class Gnome {
+    int id;
+    int age;
+    int weight;
+    int size;
+    int hairColor;
+    int eyeColor;
 }
