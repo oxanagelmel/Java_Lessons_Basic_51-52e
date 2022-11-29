@@ -8,7 +8,4 @@ public class Constant {
     static int GNOME_POWER = 6;
     static int GNOME_CHARISMA = 4;
     static int GNOME_MAGIC = 9;
-
-
-
 }
