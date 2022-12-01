@@ -1,4 +1,4 @@
-package lesson3.game.hero;
+package lesson3Nov22.game.hero;
 /**
  * @autor Oxana Gelmel
  */
@@ -9,7 +9,6 @@ package lesson3.game.hero;
         4. Создать поле id
         5. Создать еще 5 полей (на ваше усмотрение как они будут
         называться и какой тип иметь)
-
 */
 public class Gnome {
     int id;

@@ -1,4 +1,4 @@
-package lesson1;
+package lesson1Nov15;
 
 /**
  * @author Oxana Gelmel

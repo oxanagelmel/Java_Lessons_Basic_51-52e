@@ -1,4 +1,4 @@
-package lesson2;
+package lesson2Nov17;
 
 public class Aufgabe {
         public static void main(String[] args) {
