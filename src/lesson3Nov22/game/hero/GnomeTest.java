@@ -8,7 +8,7 @@ public class GnomeTest {
         Gnome gnomeSec = new Gnome();
         gnomeFirst.age = 5;
         gnomeSec.age = 4;
-        System.out.println(Constant.GNOME_POWER);// обращение на примую, зафиклированны
+        System.out.println(Constant.GNOME_POWER);// обращение на прямую, зафиксированы
         System.out.println(gnomeFirst.age);// обращаемся к переменной через ссылку
         System.out.println(gnomeSec.age);
         // если меняется значение .age одного из Гномов,
@@ -16,7 +16,7 @@ public class GnomeTest {
 
         Scanner scanner = new Scanner(System.in);
         scanner.nextInt();//метод - описывает какое-то действие
-        // вызов метода происзодит через .nextInt(),
+        // вызов метода происходит через .nextInt(),
         // а в скобках забиваются параметры
     }
 }
