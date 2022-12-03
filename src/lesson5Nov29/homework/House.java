@@ -12,11 +12,27 @@ package lesson5Nov29.homework;
    (поля должны быть private и должны быть getter для них)
 */
 public class House {
-    int lenght;
-    int width;
-    int height;
+    private int lenght;
+    private int width;
+    public int height;
 
-    String address;
-    String owner;
+    private String address;
+    public String owner;
 
+    public House(int height, String owner){
+        this.height = height;
+        this.owner = owner;
+    }
+
+    public int getLenght() {
+        return lenght;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public String getAddress() {
+        return address;
+    }
 }
