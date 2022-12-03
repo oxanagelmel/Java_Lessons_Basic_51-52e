@@ -28,17 +28,17 @@ public class homework3 {
         System.out.println(str.substring(12, 19));
         System.out.println(str.indexOf('L'));*/
 
-      /*  Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("Как тебя зовут?");
-
+        String Val = scan.nextLine();
         String name = "Oxana";
-        System.out.println("Hello " + name);*/
+        System.out.println("Hello " + name);
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Как тебя зовут?");
-
-        String name = "Lena";
-        System.out.println("Ваше имя начинаемся с буквы " + name.charAt(0));
+        String readVal = scanner.nextLine();
+        String n = "Lena";
+        System.out.println("Ваше имя начинаемся с буквы " + n.charAt(0));
 
     }
 }
