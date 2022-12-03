@@ -23,7 +23,6 @@ public class House {
         this.height = height;
         this.owner = owner;
     }
-
     public int getLenght() {
         return lenght;
     }
