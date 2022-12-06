@@ -10,6 +10,7 @@ public class StudentTest {
                                  // du kannst den Namen nur anzeigen lassen!
 
         System.out.println(student.getName());
+
         Flower flower = new Flower(3, 15, "Red");
 
         Scanner scanner = new Scanner(System.in);

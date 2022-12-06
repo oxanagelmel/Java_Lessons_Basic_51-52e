@@ -14,15 +14,27 @@ package lesson5Nov29.homework;
 public class House {
     private int lenght;
     private int width;
-    public int height;
-
     private String address;
+
+    public int height;
     public String owner;
 
-    public House(int height, String owner){
-        this.height = height;
+    public House(int height, int width, int lenght, String owner, String address){  // 1 конструктор на основе всех параметров,
+        this.height = height;                                                       // что у него есть.
         this.owner = owner;
+        this.lenght = lenght;
+        this.width = width;
+        this.address = address;
     }
+
+    public House(int width, int lenght, String address) {
+        this.address = address;
+        this.width = width;
+        this.lenght = lenght;
+    }
+
+
+
     public int getLenght() {
         return lenght;
     }
