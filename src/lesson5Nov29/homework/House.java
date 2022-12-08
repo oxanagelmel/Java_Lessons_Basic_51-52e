@@ -16,11 +16,11 @@ public class House {
     private int width;
     private String address;
 
-    public int height;
-    public String owner;
+    public int high; // = 0
+    public String owner; // = null, обозначить ничего это null
 
-    public House(int height, int width, int lenght, String owner, String address){  // 1 конструктор на основе всех параметров,
-        this.height = height;                                                       // что у него есть.
+    public House(int high, int width, int lenght, String owner, String address){  // 1 конструктор на основе всех параметров,
+        this.high = high;                                                       // что у него есть.
         this.owner = owner;
         this.lenght = lenght;
         this.width = width;
