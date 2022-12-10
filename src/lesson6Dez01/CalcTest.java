@@ -13,7 +13,7 @@ public class CalcTest {
         System.out.println(minus);
         int mult = calc.mult(3, 4);
         System.out.println(mult);
-        int div = calc.div(7, 3);
+        double div = calc.div(7, 3); //здесь мы можем забивать и inti так как double выше
         System.out.println(div);
         short first = 1;
         short second = 2;

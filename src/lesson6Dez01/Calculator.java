@@ -11,7 +11,6 @@ public class Calculator {
     //byte -> short -> int -> long
     //byte -> short -> int -> double
 
-
     public long sum(long first, long second) {
         return first + second;
     }
@@ -28,7 +27,7 @@ public class Calculator {
         return first - second;
     }
 
-    public int div(int first, int second) {
+    public double div(double first, double second) {
         return first / second;
     }
 

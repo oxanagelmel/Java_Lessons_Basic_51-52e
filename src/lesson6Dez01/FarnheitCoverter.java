@@ -7,9 +7,12 @@ package lesson6Dez01;
 public class FarnheitCoverter {
 
     int fromCelsius(int celc) {
-        return (int)(celc * 1.8 +32);
+
+        return (int)(celc * 1.8 + 32);
     }
+
     int toCelcius(int farenheit) {
+
         return (int)((farenheit - 32) / 1.8);
     }
 }
