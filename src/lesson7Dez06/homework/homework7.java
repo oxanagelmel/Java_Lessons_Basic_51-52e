@@ -16,7 +16,7 @@ public class homework7 {
         int one = 5;
         int two = 9;
         System.out.println("Второе число больше?");
-        System.out.println(two>one);
+        System.out.println(two>one); //ответ выводится в boolean
 
         System.out.println("Первое число больше или равно второму?");
         System.out.println(one>=two);
