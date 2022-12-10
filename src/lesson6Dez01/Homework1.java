@@ -13,9 +13,9 @@ import static java.lang.String.join;
 public class Homework1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        //System.out.println("Выведи длину слова: ");
-        //String str = scanner.nextLine();
-        //System.out.println(str.length()); // str.length() =  метод
+        System.out.println("Выведи длину слова: ");
+        String str = scanner.nextLine();
+        System.out.println(str.length()); // str.length() =  метод
         System.out.println(concat("I love ", "Java"));
     }
     public static String concat(String first, String second){
