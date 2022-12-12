@@ -29,10 +29,11 @@ public class MethodTest {
     // метод, который принимает 2 числа и должен поменять местами эти 2 числа
     // first = [3] second = [4] temp = [3] имеет смысл делать жто в методе /array
 
-    public static void swap(int first, int second) { // first = 3, second = 4 , сюда передаются копии
+    public static void swap(int first, int second) { // first = 3, second = 4 , сюда передаются копии когда созд. метод
         int temp = first;
         first = second;
         second = temp;
+      //  return first, second; нельзя вернуть 2
 
     }
 }

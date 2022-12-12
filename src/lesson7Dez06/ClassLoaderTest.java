@@ -2,7 +2,7 @@ package lesson7Dez06;
 
 import java.sql.Date;
 
-public class BottleTest {
+public class ClassLoaderTest {
     public static void main(String[] args) {
         String str = "test sTring";
         Bottle bottle = new Bottle();

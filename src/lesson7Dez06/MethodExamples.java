@@ -6,12 +6,13 @@ public class MethodExamples {
         int res = Integer.valueOf("123");// нужен valueOf что бы перевести строку в int
         res++;
 
-        String str = "123" + "123"; //123123 выходит
+        String str = "123" + "123"; //123123 выходит всегда строка
+        //если мы хотим как числа их прибавить, то нужно перевести в int с valueOf и сложить их
         System.out.println(res);
         String first = "125";
         String second = "126";
         int result = sum(first, second);
-        System.out.println(first + " +" + second + " +" + result);
+        System.out.println(first + " + " + second + " = " + result);
 
     }
 

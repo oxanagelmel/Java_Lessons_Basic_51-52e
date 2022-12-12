@@ -22,7 +22,7 @@ public class Homework2 {
         int three = scanner.nextInt();
         return one + two + three;
     }
-    //oder
+    //oder einfacher geschrieben:
  //  static int calc3Numb(int one, int two, int three) {
  //       return one + two + three;
  //   }
