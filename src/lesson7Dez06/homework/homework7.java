@@ -30,13 +30,12 @@ public class homework7 {
 //   (при - первая половина от первого слова, ток - вторая половина от второго слова)
 
     public static String smartConcat(String str1, String str2){
-        String f = str1.substring(0, str1.length()/ 2);
-        String s = str2.substring(str2.length()/2, str2.length()); // общий случай когда мы вырезаем последнюю строку
-        return f + s;                                              // от середины до конца
-
-
+        String f = str1.substring(0, str1.length()/ 2); // от самой первой -> 0, разделить длину строки на пополам(на 2)
+        String s = str2.substring(str2.length()/2, str2.length()); // от середины str2.length()/2 до конца str2.length()
+                                                                   // общий случай когда мы вырезаем последнюю строку
+        return f + s;
+        //String s = str2.substring(str2.length()/2); можно и так c beginIndex
     }
-
       //  String str1 = "привет";
       //  String str2 = "цветок";
       //  System.out.println(str1.substring(0, 3) + str2.substring(3, 6));
