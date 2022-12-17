@@ -14,6 +14,7 @@ public class homework7 {
     public static void main(String[] args) {
         boolean res = isMoreOrEquals(4, 5);
         System.out.println(res);
+        System.out.println(smartConcat("Цена", "Печенье"));
     }
     public static boolean isMoreOrEquals(int first, int second) {
         return first >= second; //вернуть
