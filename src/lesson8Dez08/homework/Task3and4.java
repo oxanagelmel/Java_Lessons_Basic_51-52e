@@ -46,6 +46,7 @@ public class Task3and4 {
             System.out.println(false);
         }else {
             System.out.println(true);
+
         }
     }
 }
