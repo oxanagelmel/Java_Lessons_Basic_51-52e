@@ -16,17 +16,17 @@ public class Task3and4 {
 
     public static void main(String[] args) {
         double price = 0.5;
-        int howMuchCookies = 11;
-        int money = 3;
+        int howMuchCookies = 10;
+        int money = 4;
 
       /*  Scanner scanner = new Scanner(System.in);
         System.out.println("Wie viele möchten Sie kaufen?");
         int howManyCookies = scanner.nextInt();
 
         System.out.println("Wie viel haben Sie dabei?");
-        int howManyMoney = scanner.nextInt();*/
+        int howManyMoney = scanner.nextInt();
+      */
 
-        //(money / price) >= howMuchCookies
         if(price * howMuchCookies <= money){
             System.out.println("möglich");
         }else {
