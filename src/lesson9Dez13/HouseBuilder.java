@@ -3,24 +3,32 @@ package lesson9Dez13;
 import java.util.Random;
 
 public class HouseBuilder {
-    public static int MAX_HIGH = 10;
+    //мы хотим построить дом и у него есть опр. Критерии
+
+    public static int MAX_HIGH = 10;// Разрешено макс. 10 этажей
 
     public static void main(String[] args) {
         Random random = new Random();
-        boolean isHasRoof = random.nextBoolean();
-        boolean isHasWall = random.nextBoolean();
-        int high = random.nextInt(15);
+        boolean isHasRoof = random.nextBoolean(); // у него должна быть крыша
+        boolean isHasWall = random.nextBoolean(); // у него должны быть стены
+        int high = random.nextInt(15);     // переменная говорит какая высота, от 1 до 15 = пишется 15
         // %s - строка (чтобы мы не подали как параметр он будет переведён в строку)
         // %b - boolean
         // %d - digit input (double) число на входе
 
-        System.out.printf("Крыша есть? %s , Стены есть? %s высота : %s%n", isHasRoof, isHasWall, high);
-
+        System.out.printf("Крыша есть? %s , Стены есть? %s высота : %s%n", isHasRoof, isHasWall, high); // можно и %s\n
+                                                                                                       //и %d%n / %d.0%n
         // мы принимаем объект если есть крыша, есть стены и высота меньше 10
         //if (isHasRoof && isHasWall && high <= MAX_HIGH) {
         //    System.out.println("принимаем");
+        //} else {
+        //    System.out.println("не принимаем");
+        //}
 
- /*       if (!isHasRoof){
+ /*     Делаем поэтапную проверку, так что if (isHasRoof && isHasWall && high <= MAX_HIGH) {
+                                              System.out.println("принимаем");   можно не писать
+        Как это сделать?
+        if (!isHasRoof){     // если одно не правильно, то дальше программа не проверяет -> взаимно исключаемое условие
             System.out.println("нет крыши");
         } else if (!isHasWall) {
             System.out.println("нет стены");

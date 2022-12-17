@@ -13,7 +13,7 @@ public class LangTest {
             System.out.println("not supported");
         }
 
-      /*  switch (lang){
+        switch (lang){
             case "EN": //строго фиксированная строка/ число в " "
                 System.out.println("Hello");
                 break; //прерви, как return вернуть
@@ -33,7 +33,7 @@ public class LangTest {
          // case 5:
             case 3, 4 ,5:
                 System.out.println("Spring");
-        }*/
+        }
 
     }
 }
