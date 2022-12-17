@@ -6,19 +6,14 @@ import java.util.Random;
 // чтобы уменьшить количество пробок, власти решили пускать в город по выходным только легковые машины с четными номерами,
 // напишите программу, которая принимает на вход два параметра: номер машины и isLorry (грузовая машина или нет),
 // в результате программа выводит можно заезжать машине или нет в город
+
 public class Task5 {
     public static void main(String[] args) {
         Random random = new Random();
-        int num = random.nextInt(1, 10000); //  1. мы получили какой-то номер машины
-        boolean isLorry = random.nextBoolean();          // 2. грузовик или нет
-        System.out.printf("номер %s грузовик? %s\n", num, isLorry); //printf это форматированный ход/вывод
-        //%s\n -> \ backslash n = перенос строки, что бы всё не писалось в одной
-        //%S -> параметр-> он стоит/пишется дальше например num, iLorry
-
-        //System.out.println("номер " + num + " грузовик" + isLorry);
-        //можно так но так слишком много всего и легко запутаться -> для этого есть printf(...)
-
-        //машина легковая = не грузовая и номер машины чётный
+        int num = random.nextInt(1, 10000); 
+        boolean isLorry = random.nextBoolean();          
+        System.out.printf("номер %s грузовик? %s\n", num, isLorry); 
+      
         //проверяем номер и какая машина заехала
         if (!isLorry && num % 2 == 0){
             System.out.println("можно заезжать");
