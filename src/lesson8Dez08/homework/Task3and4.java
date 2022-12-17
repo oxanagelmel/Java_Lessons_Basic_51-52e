@@ -41,11 +41,11 @@ public class Task3and4 {
 //   используйте Random и метод nextBoolean
     public static void check(){
         Random random = new Random();
-        boolean isTail = random.nextBoolean();
-        if(!isTail){
-            System.out.println(false);
-        }else {
+        boolean isEagle = random.nextBoolean();
+        if(isEagle){
             System.out.println(true);
+        }else {
+            System.out.println(false);
 
         }
     }
