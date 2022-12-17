@@ -2,6 +2,7 @@ package lesson8Dez08.homework;
 
 import lesson0.Main;
 
+import java.util.Random;
 import java.util.Scanner;
 
 //3) Покупатель приходит в магазин печенья, 1 печенье стоит 0.5 евро
@@ -11,7 +12,7 @@ import java.util.Scanner;
 //   за такие деньги, например
 //   покупатель хочет купить 10 печенек, у него 4 евро ответ  нельзя
 //   покупатель хочет купить 12 печенек, у него 8 евро ответ  можно
-public class Task3 {
+public class Task3and4 {
 
     public static void main(String[] args) {
         double price = 0.5;
@@ -30,6 +31,21 @@ public class Task3 {
             System.out.println("möglich");
         }else {
             System.out.println("nicht möglich");
+        }
+        check();
+    }
+
+//4) напишите программу, которая говорит выпал орел или решка
+//   true - орел
+//   false -решка
+//   используйте Random и метод nextBoolean
+    public static void check(){
+        Random random = new Random();
+        boolean isTail = random.nextBoolean();
+        if(!isTail){
+            System.out.println(false);
+        }else {
+            System.out.println(true);
         }
     }
 }
