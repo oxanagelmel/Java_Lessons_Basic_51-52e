@@ -1,4 +1,9 @@
 package lesson8Dez08.homework;
+
+import lesson0.Main;
+
+import java.util.Scanner;
+
 //3) Покупатель приходит в магазин печенья, 1 печенье стоит 0.5 евро
 //   Напишите программу которая спрашивает у покупателя сколько он хочет купить печенья, после этого с помощью Scanner
 //   считывается число сколько печенья хочет купить покупатель, после спрашивается сколько денег у покупателя
@@ -7,4 +12,24 @@ package lesson8Dez08.homework;
 //   покупатель хочет купить 10 печенек, у него 4 евро ответ  нельзя
 //   покупатель хочет купить 12 печенек, у него 8 евро ответ  можно
 public class Task3 {
+
+    public static void main(String[] args) {
+        double price = 0.5;
+        int howMuchCookies = 11;
+        int money = 3;
+
+      /*  Scanner scanner = new Scanner(System.in);
+        System.out.println("Wie viele möchten Sie kaufen?");
+        int howManyCookies = scanner.nextInt();
+
+        System.out.println("Wie viel haben Sie dabei?");
+        int howManyMoney = scanner.nextInt();*/
+
+        //(money / price) >= howMuchCookies
+        if(price * howMuchCookies <= money){
+            System.out.println("möglich");
+        }else {
+            System.out.println("nicht möglich");
+        }
+    }
 }
