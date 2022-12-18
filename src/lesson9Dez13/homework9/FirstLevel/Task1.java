@@ -16,6 +16,6 @@ public class Task1 {
         boolean secondEntrance = random.nextBoolean();
         boolean thirdEntrance = random.nextBoolean();
         int apartment = random.nextInt(19);
-        System.out.printf("первый подъезд %s второй подъезд %s третий подъезд %s\n",firstEntrance, secondEntrance, thirdEntrance, apartment);
+        System.out.printf("первый подъезд %s второй подъезд %s третий подъезд %s\n", firstEntrance, secondEntrance, thirdEntrance, apartment);
     }
 }
