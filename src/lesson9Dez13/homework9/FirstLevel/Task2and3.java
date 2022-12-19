@@ -4,6 +4,9 @@ package lesson9Dez13.homework9.FirstLevel;
 //   то в переменную result запишем 'зима', если имеет значение '2' – 'весна' и так далее.
 //   Решите задачу через switch-case.
 
+/*Teacher's comment:
+  в 3 задании int month = 1 - 12; вместо этого нужно какое-то значение из промежутка 1-12 взять и записать в переменную
+ */
 import java.util.Random;
 import java.util.Scanner;
 
@@ -14,7 +17,7 @@ public class Task2and3 {
       //  int result = random.nextInt();
         String num = String.valueOf("3");
 
-        switch (num) {
+     /*   switch (num) {
             case "1":
                 System.out.println("Зима");
                 break;
@@ -27,20 +30,25 @@ public class Task2and3 {
             case "4":
                 System.out.println("Осень");
                 break;
-
         }
+      */
+
+        switch (num) {
+            case "1" -> System.out.println("Зима");
+            case "2" -> System.out.println("Весна");
+            case "3" -> System.out.println("Лето");
+            case "4" -> System.out.println("Осень");
+        }
+
 //3) В переменной month лежит какое-то число из интервала от 1 до 12.
 //   Определите в какую пору года попадает этот месяц (зима, лето, весна, осень).
-        int month = 1 - 12;
+        int month = 1;
         switch (month) {
-            case 12, 1, 2:
-                System.out.println("Зима");
-            case 3, 4, 5:
-                System.out.println("Весна");
-            case 6, 7, 8:
-                System.out.println("Лето");
-            case 9, 10, 11:
-                System.out.println("Осень");
+            case 12, 1, 2  -> System.out.println("Зима");
+            case 3, 4, 5 -> System.out.println("Весна");
+            case 6, 7, 8  -> System.out.println("Лето");
+            case 9, 10, 11 -> System.out.println("Осень");
+            //или так или с break
         }
     }
 }
