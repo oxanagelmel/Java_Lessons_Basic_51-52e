@@ -33,3 +33,9 @@ import java.util.Scanner;
         }
     }
 }*/
+/*
+
+Teacher's comment: 1) можно было проще:
+if (age >= 18)
+
+ */
