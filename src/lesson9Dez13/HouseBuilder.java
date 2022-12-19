@@ -3,7 +3,7 @@ package lesson9Dez13;
 import java.util.Random;
 
 public class HouseBuilder {
-    //мы хотим построить дом и у него есть опр. Критерии
+    //Мы хотим построить дом и у него есть опр. Критерии
 
     public static int MAX_HIGH = 10;// Разрешено макс. 10 этажей
 
