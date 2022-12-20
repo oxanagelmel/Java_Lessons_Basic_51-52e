@@ -2,7 +2,7 @@ package lesson9Dez13;
 
 //Программа проверяющая язык
 
-public class LangTest {
+public class IfSwitchCaseLangTest {
     public static void main(String[] args) {
        String lang = "EN";
          if (lang.equals("EN")){
